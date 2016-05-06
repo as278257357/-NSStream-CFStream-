@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2134C321CDC48D200106373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134C311CDC48D200106373 /* main.m */; };
+		D2134C351CDC48D200106373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134C341CDC48D200106373 /* AppDelegate.m */; };
+		D2134C381CDC48D200106373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134C371CDC48D200106373 /* ViewController.m */; };
+		D2134C3B1CDC48D200106373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2134C391CDC48D200106373 /* Main.storyboard */; };
+		D2134C3D1CDC48D200106373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2134C3C1CDC48D200106373 /* Assets.xcassets */; };
+		D2134C401CDC48D200106373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2134C3E1CDC48D200106373 /* LaunchScreen.storyboard */; };
+		D2134C4B1CDC48D200106373 /* NSStreeam_CFStream_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134C4A1CDC48D200106373 /* NSStreeam_CFStream_ClientTests.m */; };
+		D2134C561CDC48D200106373 /* NSStreeam_CFStream_ClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2134C551CDC48D200106373 /* NSStreeam_CFStream_ClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2134C471CDC48D200106373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2134C251CDC48D200106373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2134C2C1CDC48D200106373;
+			remoteInfo = "NSStreeam&CFStream Client";
+		};
+		D2134C521CDC48D200106373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2134C251CDC48D200106373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2134C2C1CDC48D200106373;
+			remoteInfo = "NSStreeam&CFStream Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2134C2D1CDC48D200106373 /* NSStreeam&CFStream Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSStreeam&CFStream Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2134C311CDC48D200106373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2134C331CDC48D200106373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2134C341CDC48D200106373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2134C361CDC48D200106373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2134C371CDC48D200106373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2134C3A1CDC48D200106373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2134C3C1CDC48D200106373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2134C3F1CDC48D200106373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2134C411CDC48D200106373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2134C461CDC48D200106373 /* NSStreeam&CFStream ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSStreeam&CFStream ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2134C4A1CDC48D200106373 /* NSStreeam_CFStream_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStreeam_CFStream_ClientTests.m; sourceTree = "<group>"; };
+		D2134C4C1CDC48D200106373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2134C511CDC48D200106373 /* NSStreeam&CFStream ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSStreeam&CFStream ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2134C551CDC48D200106373 /* NSStreeam_CFStream_ClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStreeam_CFStream_ClientUITests.m; sourceTree = "<group>"; };
+		D2134C571CDC48D200106373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2134C2A1CDC48D200106373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C431CDC48D200106373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C4E1CDC48D200106373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2134C241CDC48D200106373 = {
+			isa = PBXGroup;
+			children = (
+				D2134C2F1CDC48D200106373 /* NSStreeam&CFStream Client */,
+				D2134C491CDC48D200106373 /* NSStreeam&CFStream ClientTests */,
+				D2134C541CDC48D200106373 /* NSStreeam&CFStream ClientUITests */,
+				D2134C2E1CDC48D200106373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2134C2E1CDC48D200106373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2134C2D1CDC48D200106373 /* NSStreeam&CFStream Client.app */,
+				D2134C461CDC48D200106373 /* NSStreeam&CFStream ClientTests.xctest */,
+				D2134C511CDC48D200106373 /* NSStreeam&CFStream ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2134C2F1CDC48D200106373 /* NSStreeam&CFStream Client */ = {
+			isa = PBXGroup;
+			children = (
+				D2134C331CDC48D200106373 /* AppDelegate.h */,
+				D2134C341CDC48D200106373 /* AppDelegate.m */,
+				D2134C361CDC48D200106373 /* ViewController.h */,
+				D2134C371CDC48D200106373 /* ViewController.m */,
+				D2134C391CDC48D200106373 /* Main.storyboard */,
+				D2134C3C1CDC48D200106373 /* Assets.xcassets */,
+				D2134C3E1CDC48D200106373 /* LaunchScreen.storyboard */,
+				D2134C411CDC48D200106373 /* Info.plist */,
+				D2134C301CDC48D200106373 /* Supporting Files */,
+			);
+			path = "NSStreeam&CFStream Client";
+			sourceTree = "<group>";
+		};
+		D2134C301CDC48D200106373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2134C311CDC48D200106373 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2134C491CDC48D200106373 /* NSStreeam&CFStream ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2134C4A1CDC48D200106373 /* NSStreeam_CFStream_ClientTests.m */,
+				D2134C4C1CDC48D200106373 /* Info.plist */,
+			);
+			path = "NSStreeam&CFStream ClientTests";
+			sourceTree = "<group>";
+		};
+		D2134C541CDC48D200106373 /* NSStreeam&CFStream ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2134C551CDC48D200106373 /* NSStreeam_CFStream_ClientUITests.m */,
+				D2134C571CDC48D200106373 /* Info.plist */,
+			);
+			path = "NSStreeam&CFStream ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2134C2C1CDC48D200106373 /* NSStreeam&CFStream Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2134C5A1CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream Client" */;
+			buildPhases = (
+				D2134C291CDC48D200106373 /* Sources */,
+				D2134C2A1CDC48D200106373 /* Frameworks */,
+				D2134C2B1CDC48D200106373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSStreeam&CFStream Client";
+			productName = "NSStreeam&CFStream Client";
+			productReference = D2134C2D1CDC48D200106373 /* NSStreeam&CFStream Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2134C451CDC48D200106373 /* NSStreeam&CFStream ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2134C5D1CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream ClientTests" */;
+			buildPhases = (
+				D2134C421CDC48D200106373 /* Sources */,
+				D2134C431CDC48D200106373 /* Frameworks */,
+				D2134C441CDC48D200106373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2134C481CDC48D200106373 /* PBXTargetDependency */,
+			);
+			name = "NSStreeam&CFStream ClientTests";
+			productName = "NSStreeam&CFStream ClientTests";
+			productReference = D2134C461CDC48D200106373 /* NSStreeam&CFStream ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2134C501CDC48D200106373 /* NSStreeam&CFStream ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2134C601CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream ClientUITests" */;
+			buildPhases = (
+				D2134C4D1CDC48D200106373 /* Sources */,
+				D2134C4E1CDC48D200106373 /* Frameworks */,
+				D2134C4F1CDC48D200106373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2134C531CDC48D200106373 /* PBXTargetDependency */,
+			);
+			name = "NSStreeam&CFStream ClientUITests";
+			productName = "NSStreeam&CFStream ClientUITests";
+			productReference = D2134C511CDC48D200106373 /* NSStreeam&CFStream ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2134C251CDC48D200106373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EaseMob;
+				TargetAttributes = {
+					D2134C2C1CDC48D200106373 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D2134C451CDC48D200106373 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D2134C2C1CDC48D200106373;
+					};
+					D2134C501CDC48D200106373 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D2134C2C1CDC48D200106373;
+					};
+				};
+			};
+			buildConfigurationList = D2134C281CDC48D200106373 /* Build configuration list for PBXProject "NSStreeam&CFStream Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2134C241CDC48D200106373;
+			productRefGroup = D2134C2E1CDC48D200106373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2134C2C1CDC48D200106373 /* NSStreeam&CFStream Client */,
+				D2134C451CDC48D200106373 /* NSStreeam&CFStream ClientTests */,
+				D2134C501CDC48D200106373 /* NSStreeam&CFStream ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2134C2B1CDC48D200106373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2134C401CDC48D200106373 /* LaunchScreen.storyboard in Resources */,
+				D2134C3D1CDC48D200106373 /* Assets.xcassets in Resources */,
+				D2134C3B1CDC48D200106373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C441CDC48D200106373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C4F1CDC48D200106373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2134C291CDC48D200106373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2134C381CDC48D200106373 /* ViewController.m in Sources */,
+				D2134C351CDC48D200106373 /* AppDelegate.m in Sources */,
+				D2134C321CDC48D200106373 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C421CDC48D200106373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2134C4B1CDC48D200106373 /* NSStreeam_CFStream_ClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2134C4D1CDC48D200106373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2134C561CDC48D200106373 /* NSStreeam_CFStream_ClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2134C481CDC48D200106373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2134C2C1CDC48D200106373 /* NSStreeam&CFStream Client */;
+			targetProxy = D2134C471CDC48D200106373 /* PBXContainerItemProxy */;
+		};
+		D2134C531CDC48D200106373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2134C2C1CDC48D200106373 /* NSStreeam&CFStream Client */;
+			targetProxy = D2134C521CDC48D200106373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2134C391CDC48D200106373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2134C3A1CDC48D200106373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2134C3E1CDC48D200106373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2134C3F1CDC48D200106373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2134C581CDC48D200106373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2134C591CDC48D200106373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2134C5B1CDC48D200106373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSStreeam&CFStream Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2134C5C1CDC48D200106373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSStreeam&CFStream Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2134C5E1CDC48D200106373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSStreeam&CFStream ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSStreeam&CFStream Client.app/NSStreeam&CFStream Client";
+			};
+			name = Debug;
+		};
+		D2134C5F1CDC48D200106373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSStreeam&CFStream ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSStreeam&CFStream Client.app/NSStreeam&CFStream Client";
+			};
+			name = Release;
+		};
+		D2134C611CDC48D200106373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSStreeam&CFStream ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSStreeam&CFStream Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2134C621CDC48D200106373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSStreeam&CFStream ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYB.NSStreeam-CFStream-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSStreeam&CFStream Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2134C281CDC48D200106373 /* Build configuration list for PBXProject "NSStreeam&CFStream Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2134C581CDC48D200106373 /* Debug */,
+				D2134C591CDC48D200106373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2134C5A1CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2134C5B1CDC48D200106373 /* Debug */,
+				D2134C5C1CDC48D200106373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2134C5D1CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2134C5E1CDC48D200106373 /* Debug */,
+				D2134C5F1CDC48D200106373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2134C601CDC48D200106373 /* Build configuration list for PBXNativeTarget "NSStreeam&CFStream ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2134C611CDC48D200106373 /* Debug */,
+				D2134C621CDC48D200106373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2134C251CDC48D200106373 /* Project object */;
+}
